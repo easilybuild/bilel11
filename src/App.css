@@ -1,0 +1,111 @@
+textarea {
+  width: 286px;
+  height: 49px;
+  border-top-color: rgb(0, 0, 0);
+  border-width: 2px;
+  position: fixed;
+  top: 448px;
+  left:-4px;
+  border-radius: 7px 0 0 7px;
+  font-size: 16px;
+  padding: 12px 20px;
+  z-index: 2;
+  
+  
+}
+
+.button {
+
+  position: fixed;
+  top: 438px;
+  left: 150px;
+  height: 53px;
+  width: 75px;
+  color: aliceblue;
+  
+  border-top: 10px;
+  border-left: 10px;
+  border-right: 10px;
+  border-bottom: 10px;
+  cursor: pointer;
+  background-color: rgb(108, 5, 110);
+  transform: translate(175px, 10px);
+  border-radius: 0px;
+  z-index: 2;
+  border: 1px solid rgb(33, 0, 49);
+  
+}
+
+
+.container {
+  width: 359px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(45, 0, 122, 0.221);
+  text-align: right;
+  color: rgb(255, 255, 255);
+  border-radius: 0px;
+  position:fixed;
+  z-index: 1;
+  top: 50px;
+
+  
+}
+
+.container2 {
+  min-height: 50px;
+  width: 376px;
+  
+ margin: 0 auto;
+  background-color: rgba(45, 0, 122, 0.412);
+  
+  border-radius: 7px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  overflow: auto;
+  
+  
+}
+
+.reponse {
+  position: relative;
+  color: white;
+  padding: 30px;
+  background-color: rgb(137, 43, 226);
+
+  border: solid 1px rgb(255, 255, 255);
+  
+ 
+  
+  
+ 
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.move-right-down {
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
